@@ -1,0 +1,155 @@
+/* ----------CAROUSEL------------------- */
+
+.carousel-container {
+  padding-top: 90px; /* Adjust the padding to match the height of your header */
+}
+
+.carousel-img {
+  height: 500px; /* Set the maximum height of the images */
+  width: 100%; /* Maintain aspect ratio */
+}
+
+/* ----------CARDS------------------- */
+
+.card_style {
+  height: 450px;
+  width: 350px;
+  cursor: pointer;
+  transition: .3s;
+  background-color: white;
+  box-shadow: 1px 2px 5px 2px rgba(0, 0, 0, 0.082);
+}
+
+.card_style:hover {
+  background-color: #f9cdd8;
+  box-shadow: 2px 2px 5px 2px rgba(75, 73, 73, 0.082);
+}
+
+/* ----------CART ITEMS------------------- */
+
+.itemsdetails {
+  max-width: 800px;
+  background-color: white;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 2px -2px 4px rgba(255, 117, 117, 0.418), 1px 2px 6px rgba(168, 55, 55, 0.397);
+}
+
+.items__img {
+  flex: .4;
+}
+
+.items__img img {
+  width: 300px;
+  max-height: 18rem;
+  border-radius: 5px;
+}
+
+.details {
+  flex: .5;
+};
+
+.rating {
+  background-color: green;
+}
+
+/* ----------SORT BY PRICE------------------- */
+
+.sortitemsbtn {
+  width: 150px;
+  padding: 2px 15px;
+  background-color: #f697ae;
+  color: #fff;
+  border-radius: 30px;
+  margin-top: 15px;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+#cross {
+  color: white;
+  background-color: black;
+  padding: 0px 5px;
+  border-radius: 40%;
+}
+
+.sortSpan {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* ----------BUTTONS------------------- */
+
+.btn {
+  background-color: white;
+  border-color: #db5275;
+  border-radius: 10px;
+  color: #db5275;
+}
+
+.btn:hover {
+  background-color: white;
+  border-color: #db5275;
+  color: #db5275;
+}
+
+.modal-btn {
+  background-color: #db5275;
+  color: white;
+}
+
+.modal-btn:hover {
+  background-color: white;
+  color: #db5275;
+}
+
+.lnk:hover {
+  border-radius: 20px;
+  border-bottom: 1px solid #fff;
+}
+
+.fa-user:hover {
+  border-bottom: 1px solid #fff;
+}
+
+.fa-cart-shopping:hover {
+  border-bottom: 1px solid #fff;
+}
+
+/* ----------PRODUCT UPDATER------------------- */
+
+.update-modal__flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.update-modal__flex input {
+  width: 100%;
+  outline: none;
+  border: none;
+  border-bottom: 1px inset black;
+  padding-left: 10px;
+  color: black;
+}
+
+@media screen and (max-width:450px) {
+  .smalltrash {
+      display: block;
+  }
+  .largetrash {
+      display: none;
+  }
+  .emptycart_img {
+      margin-right: 50px;
+  }
+  .smallclose {
+      display: none;
+  }
+}

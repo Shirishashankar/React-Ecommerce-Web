@@ -1,0 +1,53 @@
+.addproduct-form{
+    /* Set the height and width of the form */
+    height: 300px;
+    width: 50%;
+    /* Make the form a flex container with a column layout */
+    display: flex;
+    flex-direction: column;
+    /* Add a gap between flex items */
+    gap: 1.2rem;
+    /* Add margin to the top and bottom of the form */
+    margin-top: 150px;
+    margin-bottom: 50px;
+    /* Add padding inside the form */
+    padding: 10px 20px;
+    /* Add border radius for rounded corners */
+    border-radius: 10px;
+    /* Add a solid border with a specific color */
+    border: #f44336 solid;
+}
+
+.addproduct-form input{
+    /* Add margin below the input fields */
+    margin-bottom: 15px;
+    /* Add padding inside the input fields */
+    padding: 7px 20px;
+    /* Remove the default outline */
+    outline: none;
+    /* Set the font size of the input text */
+    font-size: 16px;
+    /* Remove the border around the input */
+    border: none;
+    /* Add a red bottom border */
+    border-bottom: 1px solid red;
+    /* Set the text color */
+    color: #f44336;
+}
+
+.addproduct-form button{
+    /* Set the width of the button */
+    width: 40%;
+    /* Set the text color of the button */
+    color: #fff;
+    /* Center the button horizontally */
+    margin: auto;
+}
+
+/* Media query for screens up to 600px wide */
+@media screen and (max-width:600px) {
+    /* Adjust the width of the form for smaller screens */
+    .addproduct-form{
+        width: 96%;
+    }
+}
