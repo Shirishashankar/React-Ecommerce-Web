@@ -1,21 +1,22 @@
                      DESCRIPTION :-
 
-1.It is a React & Redux Based Real World Project, Ecommerce Website (MEAL HUB). where user can buy food receipy and a Restaurent owner able to sell their Restaurent's Food Items.
+1.It is a React & Redux Based Project, Ecommerce Website (MUNCH). where user can buy Cakes and a Bakery owner able to sell their cakes.
 
-2.Any User can add, remove , update ,delete (crud operation) receipy in cart
+2.Any User can add, remove , update ,delete (crud operation) products in cart.
 
-3.in Other hand ,Restaurent owner who want to sell their food item , they will able to add , update , and delete their receipy.
+3.in Other hand ,Restaurent owner who want to sell their cakes , they will able to add , update , and delete their products.
 
-4.if user click on theire desire receipy , they were able to see receipy details such as restorent name , receipy name, rating , price , overview etc... with recommended similar items at bottom
+4.if user click on theire desired product , they were able to see product details such as name , rating , price .
 
                  DEVELOPER VIEW:-
-1.all the code logic written in diciplined manner which is easy to undestand for any one.
+                 
+1.All the code logic written in diciplined manner which is easy to undestand for any one.
 
-2.basically in this application i perform crud operation on API(json-server)
+2.basically in this application crud operation has been performed on API(json-server)
 
-3.I implement logic requst on API(get, post , delete, put) by axios library.
+3.Implemented logic reqeust on API(get, post , delete, put) by axios library.
 
-4.I manage all state in this intire application by redux toolkit.
+4. Managed all state in this intire application by redux toolkit.
 
 ### IMAGES
 ### HOME PAGE
@@ -39,6 +40,8 @@
 ### Tech stack
 
 CLIENT : React, Redux, MaterialUI , Bootstrap-React
+
+
 API : JSON-Server (Fake Api)
 
 ### FOLDER STRUCTURE
