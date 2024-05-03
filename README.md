@@ -47,6 +47,7 @@ API : JSON-Server (Fake Api)
 ### FOLDER STRUCTURE
 
 
+
 ecommerce-react-app
     |
     |----->node_modules 
@@ -86,4 +87,3 @@ ecommerce-react-app
     |-->.gitignore
     |-->package.json
     |
-
